@@ -42,11 +42,19 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@bitauth/libauth": "^1.17.1"
+    "@bitauth/libauth": "^1.17.1",
+    "express": "^4.17.1",
+    "ioredis": "^4.19.2",
+    "ioredis-mock": "^5.2.0",
+    "runtypes": "^5.0.1",
+    "superagent": "^6.1.0",
+    "supertest": "^6.0.1"
   },
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@types/ioredis": "^4.17.8",
+    "@types/superagent": "^4.1.10",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "ava": "^3.12.1",
